@@ -1,4 +1,4 @@
-const API_KEY = "d3fcb572ae344ab7e7abc9e18f7f3c4d"; // Ensure this is activated
+const API_KEY = "your_api_key"; // Ensure this is activated
 
 document.getElementById("search-btn").addEventListener("click", getWeather);
 document.getElementById("location-input").addEventListener("keypress", function (event) {
