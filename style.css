@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Dark blue gradient */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+}
+
+/* Container with Glass Effect */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: #fff;
+    background: transparent;
+}
+
+.search-box input::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Neon Glow Button */
+.search-box button {
+    background: linear-gradient(135deg, #ff6b6b, #ff4757);
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 12px 16px;
+    border-radius: 50%;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255, 107, 107, 0.6);
+}
+
+.search-box button:hover {
+    background: linear-gradient(135deg, #ff4757, #ff6b6b);
+    box-shadow: 0 0 15px rgba(255, 107, 107, 0.9);
+}
+
+/* Icons */
+i {
+    font-size: 22px;
+    color: white;
+}
+
+/* Not Found Message */
+.not-found {
+    display: none;
+    margin-top: 15px;
+}
+
+.not-found img {
+    width: 120px;
+    filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.5));
+}
+
+.not-found p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Weather Box */
+.weather-box {
+    display: none;
+    margin-top: 15px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.weather-box img {
+    width: 120px;
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+}
+
+.temperature {
+    font-size: 34px;
+    font-weight: bold;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+}
+
+.description {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* Weather Details with Neon Effect */
+.weather-details {
+    display: none;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.humidity, .wind {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.text span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
