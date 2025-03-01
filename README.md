@@ -3,6 +3,9 @@
 **Stay Ahead with Accurate & Real-Time Weather Updates**  
 Get **instant weather forecasts**, **real-time temperature**, and **severe weather alerts** for any location worldwide. Whether you're planning a trip, commuting, or just curious about the weather, we’ve got you covered!  
 
+**For Checking Deployment of Website**
+[**Using Netlify**](https://weatherapp-nc.netlify.app/)
+
 **🌦️ Features You'll Love**  
 
 ✅ **Live Weather Updates** – Check real-time weather conditions for your city and beyond.  
@@ -27,3 +30,5 @@ Customize your weather experience with themes, temperature units (°C/°F), and 
 
 **🌎 Check Your Local Weather Now!**  
 🔍 Enter your city & get the latest updates in seconds.  
+
+[**LinkedIn**](https://www.linkedin.com/in/nishchaync-83b8152b0/) | [**GitHub**](https://github.com/DeathSquat)  
